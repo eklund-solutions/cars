@@ -1,5 +1,5 @@
-com\erik\Car\Car.class
-com\erik\Car\CarRepository.class
-com\erik\Car\CarService.class
-com\erik\Car\CarController.class
-com\erik\Car\CarApplication.class
+com\erik\car\CarApplication.class
+com\erik\car\CarController.class
+com\erik\car\CarRepository.class
+com\erik\car\CarService.class
+com\erik\car\Car.class
