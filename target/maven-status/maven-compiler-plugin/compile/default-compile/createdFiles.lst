@@ -1,0 +1,5 @@
+com\erik\Car\Car.class
+com\erik\Car\CarRepository.class
+com\erik\Car\CarService.class
+com\erik\Car\CarController.class
+com\erik\Car\CarApplication.class
