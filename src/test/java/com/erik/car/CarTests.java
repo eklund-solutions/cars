@@ -7,27 +7,27 @@ public class CarTests {
 	@Test
 	void isLicensePlateSwedishStandardTest() {
 		
-		Car Car = new Car();
+		Car car = new Car();
 
 		// Normal skylt i svensk standard
-		Car.setLicensePlate("ABC123");		
-		assertThat(Car.getIsLicensePlateSwedishStandard()).isEqualTo(true);
+		car.setLicensePlate("ABC123");		
+		assertThat(car.getIsLicensePlateSwedishStandard()).isEqualTo(true);
 
 		// Felakta skyltar
-		Car.setLicensePlate("123ABC");		
-		assertThat(Car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
+		car.setLicensePlate("123ABC");		
+		assertThat(car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
 
-		Car.setLicensePlate("AB0123");		
-		assertThat(Car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
+		car.setLicensePlate("AB0123");		
+		assertThat(car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
 
-		Car.setLicensePlate("ABCD2");		
-		assertThat(Car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
+		car.setLicensePlate("ABCD2");		
+		assertThat(car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
 
-		Car.setLicensePlate("ABC1234");		
-		assertThat(Car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
+		car.setLicensePlate("ABC1234");		
+		assertThat(car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
 
-		Car.setLicensePlate("MYRIDE");		
-		assertThat(Car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
+		car.setLicensePlate("MYRIDE");		
+		assertThat(car.getIsLicensePlateSwedishStandard()).isEqualTo(false);
 
 
 
